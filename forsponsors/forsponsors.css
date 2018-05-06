@@ -1,78 +1,91 @@
-/* Grid layout */
-.wrapper {
-  display: grid;
-  /* grid-column-gap: 20px; */
-  /* grid-row-gap: 20px; */
-  grid-template-columns: repeat(3,1fr 2fr);
-  grid-template-rows: minmax(100,auto);
-  background-image: url('images/skyForSponsors.jpeg');
-  margin:0;
+/* BANNER STYLES */
+.banner {
+  border: 1px solid #F6FFE0;
+  width: 100%;
+  margin: 0;
+  background-image: url(/images/pattern.png);
+  background-color: #F6FFE0;
+  height: 700px;
 }
 
-.wrapper>li {
-  /* background: #E2F0D6;; */
-  padding:1em;
+.question {
+  text-align: center;
+  margin-top: 200px;
 }
 
-.wrapper>li:nth-child(odd) {
-  /* background: #fff; */
+.question h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 5em;
+  margin-bottom: 0.5em;
+}
+
+.question p {
+  font-size: 9em;
 }
 
 
-/* Grid styles */
-ol {
-  list-style: none;
-  padding: 1em;
+/* CARD STYLES */
+.card-box {
+  display: flex;
+  background: #10222B;
+  flex-direction: row;
+  padding: 200px auto;
 }
 
-h2 {
-  border-bottom: 1px solid #95AB63;
+/* text card */
+.card-text {
+  color: #F6FFE0;
+  border: 1px solid black;
+   padding: 80px 50px;
+  flex-basis: 0;
+  flex-grow: 1;
+  font-size: 1.2em;
+  text-align: center;
+  width: 100%;
+  vertical-align: auto;
 }
 
-li>p:first-child {
-  display: block;
-  font-size: 5rem;
-  font-weight: lighter;
+.card-text p:first-of-type {
+  font-size: 8em;
   text-align: center;
 }
 
-li>h2,p:nth-child(3) {
-  width: 70%;
-  text-align: justify;
-  margin: auto;
-  margin-bottom: 1em;
-}
-.explanation0 {
-  grid-column: 1/3;
-  grid-row: 1/2;
-}
-.explanation1 {
-  grid-column: 1/3;
-  grid-row: 2/3;
-  background-color:  #E2F0D6;
-  opacity: 0.8;
-  box-shadow: 0 4px 6px 0px #10222B;
+.card-text p:last-of-type {
+  line-height: 2em;
 }
 
-.explanation2 {
-  grid-column: 3/5;
-  grid-row: 4/5;
-  background-color:  #E2F0D6;
-  opacity: 0.8;
-  box-shadow: 0 4px 6px 0px #10222B;
+/* text image */
+.card-img {
+  /* border: 1px solid black; */
+  flex-basis: 0;
+  flex-grow: 1;
 }
 
-.explanation3 {
-  grid-column: 5/7;
-  grid-row: 5/7;
-  background-color:  #E2F0D6;
-  opacity: 0.85;
-  box-shadow: 0 4px 6px 0px #10222B;
+.card-img img{
+width: 100%;
+height: 100%;
 }
 
-/* Interested*/
-.interested {
-  width: 60%;
-  margin: auto;
-  padding-top: 3em;
+
+/* FOUR REASONS STYLES */
+.four-reasons {
+  background-image: url(/images/pattern.png);
+  background-color: #95AB63;
 }
+
+.reason {
+display: flex;
+flex-direction: column;
+}
+
+.reason-png {
+  text-align: center;
+}
+
+.reason-txt {
+  margin-top: 20px;
+  color: white;
+  font-size: 1.3em;
+}
+
+
