@@ -77,7 +77,7 @@ footer li a:hover {
 footer li a {
   color:#BDD684;
 }
-.col-xs-3 {
+.col-xs-4 {
   /* border: 1px solid white; */
   margin: auto;
   padding-top: 2em;
@@ -121,4 +121,105 @@ footer p {
   -webkit-transform: scale(1.03);
   transition: .3s ease-in-out;
   opacity: 1;
+}
+
+
+/* CONTACT FORM STYLES */
+
+/* overall */
+.container-contact {
+  margin-top: 1em;
+  background-color: white;
+  border-radius: 10px;
+ justify-content: center;
+ flex-direction: row;
+ box-shadow: 0 4px 6px 0 grey;
+}
+
+.wrap-contact {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 3em;
+ flex-direction: row;
+ text-align: center;
+}
+
+/* image */
+.contact-pic {
+  flex-basis: 0;
+  flex-grow: 1;
+  margin-right: 40px;
+  min-height: 600px;
+}
+
+.contact-pic img {
+  width: 50%;
+  /* vertical-align: center; */
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+    
+}
+
+/* form */
+.contact-form {
+  flex-basis: 0;
+  flex-grow: 1;
+  min-height: 300px;
+  margin-top: 60px;
+
+}
+
+.contact-form-input {
+  text-align: center;
+  margin-top: 40px;
+  line-height: 2;
+  display: block;
+  width: 100%;
+}
+
+.contact-form-title {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 2em;
+  padding-bottom: 30px;
+}
+
+.wrap-input {
+  width: 100%;
+  margin-bottom: 10px; 
+}
+
+
+input, .text-box {
+  border-radius: 20px;
+  border: none;
+  background-color: #e5e5e5;
+  width: 80%;
+  padding-left: 20px;  
+}
+
+.text-box {
+  height: 200px;
+  width: 80%;
+}
+
+input::placeholder, textarea::placeholder {
+  color: #C9283E;
+  padding: 10px 10px;
+}
+
+/* button styles */
+.contact-btn {
+  width:80%;
+  border-radius: 20px;
+  border: none;
+  box-shadow: 0 4px 6px 0 #F0433A; 
+  background-color: #C9283E;
+  height: 50px;
+  font-size: 25px;
+ color: white;
+}
+
+.contact-btn:hover {
+  background-color: #F0433A; 
 }
