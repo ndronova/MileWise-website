@@ -1,0 +1,71 @@
+body {
+  background-image: url(/images/pattern.png);
+  background-color: #95AB63;
+}
+
+/* CHARITY CARD */
+
+.charities {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 10px;
+  grid-row-gap:10px;
+}
+
+.charity-card {
+  display: grid;
+  grid-template-rows: 3fr 2fr 1fr;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0 4px 6px 0 #375A28;
+  padding: 0 20px;
+}
+
+/* charity image */
+.charity-image {
+  border: 1px solid;
+  text-align: center;
+}
+
+/* charity description */
+.charity-description {
+  border: 1px solid;
+}
+
+.charity-description h2 {
+  margin-top: 10px;
+  color: #24436C;
+  font-weight: bolder;
+}
+
+.charity-description {
+  color:#268487;
+}
+
+/* BUTTONS */
+.donate-info {
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: center;
+}
+.donate-info button {
+  width:80%;
+  border-radius: 20px;
+  border: none;
+  box-shadow: 0 4px 6px 0 #375A28; 
+  background-color: #607D37;
+  height: 40px;
+  font-size: 25px;
+ color: white;
+}
+
+.donate button {
+  background-color: #268487;
+  box-shadow: 0 4px 6px 0 #24436C; 
+}
+
+.donate button:hover {
+  background-color: #F0433A; 
+}
