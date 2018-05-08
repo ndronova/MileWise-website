@@ -30,12 +30,17 @@
   background: #10222B;
   flex-direction: row;
   padding: 200px auto;
+  border: 1px solid white;
+  margin-left: 0;
+  width: 100%;
+  padding: 0;
+  margin: 0;
 }
 
 /* text card */
 .card-text {
   color: #F6FFE0;
-   padding: 80px 50px;
+  padding: 80px 50px;
   flex-basis: 0;
   flex-grow: 1;
   font-size: 1.2em;
@@ -70,12 +75,18 @@ grid-template-columns: 1fr;
 .four-reasons {
   background-image: url(/images/pattern.png);
   background-color: #95AB63;
+  /* display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr; */
+
 }
 
-.reason {
+/* .reason {
 display: flex;
 flex-direction: column;
-}
+} */
+
+
+
 
 .reason-png {
   text-align: center;
@@ -94,9 +105,15 @@ body {
   background-color: #95AB63;
 }
 
-/* FOOTER STYLES */
-/* .social {
-  border: 1px solid white;
-  display: grid;
+/* four reasons styles */
+.col-xs-3 {
+  /* border: 1px solid white; */
+  margin: auto;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  box-sizing: border-box;
+}
 
-} */
+.four-reasons, .four-reasons:before, .four-reasons:after {
+  box-sizing: inherit;
+}
