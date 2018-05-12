@@ -1,0 +1,29 @@
+body {
+  background-image: url(/images/pattern.png);
+  background-color: #95AB63;
+}
+
+.map {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  margin-top: 40px;
+  grid-column-gap: 20px;
+  text-align: center;
+  margin-left: 40px;
+}
+
+.map-explanations {
+  text-align: justify;
+}
+
+.business-help {
+  margin-top: 30px;
+  color: white;
+}
+.business-tick {
+  background-color: #607D37;
+  height: 400px;
+  box-shadow: 0 4px 6px 0 #375A28;
+  padding-top: 20px;
+  padding-left: 40px;
+}

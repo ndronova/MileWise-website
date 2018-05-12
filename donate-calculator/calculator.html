@@ -1,0 +1,203 @@
+<!doctype html>
+
+<html lang="en">
+
+
+<head>
+  <meta charset="utf-8">
+
+  <title>For People</title>
+  <meta name="description" content="The HTML5 Herald">
+  <meta name="author" content="SitePoint">
+  <!-- BOOTSTRAP -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <!-- GOOGLE FONTS -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:400,700" rel="stylesheet">
+  <!-- STYLESHEETS -->
+  <link rel="stylesheet" href="/globalStyles.css">
+  <link rel="stylesheet" href="calculator.css" />
+  <!-- FONT AWESOME -->
+  <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/solid.js" integrity="sha384-+Ga2s7YBbhOD6nie0DzrZpJes+b2K1xkpKxTFFcx59QmVPaSA8c7pycsNaFwUK6l" crossorigin="anonymous"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/regular.js" integrity="sha384-t7yHmUlwFrLxHXNLstawVRBMeSLcXTbQ5hsd0ifzwGtN7ZF7RZ8ppM7Ldinuoiif" crossorigin="anonymous"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/brands.js" integrity="sha384-sCI3dTBIJuqT6AwL++zH7qL8ZdKaHpxU43dDt9SyOzimtQ9eyRhkG3B7KMl6AO19" crossorigin="anonymous"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/fontawesome.js" integrity="sha384-7ox8Q2yzO/uWircfojVuCQOZl+ZZBg2D2J5nkpLqzH1HY0C1dHlTKIbpRz/LG23c" crossorigin="anonymous"></script>
+</head>
+
+
+
+<body>
+  <header>
+
+    <!-- Navigation -->
+    <nav class="headerMenu">
+      <ul>
+        <li><a href="/index.html">Home</a></li>
+        <li><a href="ourApp.html">Our App</a></li>
+        <li><a href="#">Sponsors</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+</header>
+
+<!-- Description of value proposition -->
+<main>
+<!-- INPUTS -->
+<div class="container-contact container">
+  <div class="calculator">
+    <div id="error-msg">Please, check your numbers</div>
+    <h1>Donations calculator</h1>
+    <!-- InPUTS -->
+    <form id="donation-form">
+
+      <div class="form-group">
+        <div class="input-group-prepend">
+          <div class="input-group-text">
+              Age:
+          </div>
+          <div class="donation-input">
+            <input type="number" class="form-control" id="age" placeholder="Enter your age">
+          </div>
+        </div>
+      </div>
+      
+      <div class="form-group">
+          <div class="input-group-prepend">
+            <div class="input-group-text">
+                Heart Rate:
+            </div>
+            <div class="donation-input">
+              <input type="number" class="form-control" id="heart-rate" placeholder="Enter heart rate (beats/min)">
+            </div>
+          </div>
+        </div>
+
+
+        <div class="form-group">
+            <div class="input-group-prepend">
+              <div class="input-group-text">
+                  Weight:
+              </div>
+              <div class="donation-input">
+                <input type="number" class="form-control" id="weight" placeholder="Enter your weight">
+              </div>
+            </div>
+          </div>
+
+          <div class="form-group">
+              <div class="input-group-prepend">
+                <div class="input-group-text">
+                    Time:
+                </div>
+                <div class="donation-input">
+                  <input type="number" class="form-control" id="time" placeholder="Enter exercise time (min)">
+                </div>
+              </div>
+            </div>
+
+          <div class="form-group">
+              <input type="submit" value="Caluculate" class="contact-btn">
+            </div>
+    </form>
+    <!-- LOADER -->
+    <div id="loading">
+      <img src="/images/loader.gif" alt="">
+    </div>
+
+    <!-- RESULTS -->
+    <div id="results">
+      <h1>Results</h1>
+
+      <div class="form-group">
+          <div class="input-group-prepend">
+            <div class="input-group-text">
+                Calories:
+            </div>
+            <div class="donation-input">
+              <input type="number" class="form-control" id="calories" disabled>
+            </div>
+          </div>
+        </div>
+
+        <div class="form-group">
+            <div class="input-group-prepend">
+              <div class="input-group-text">
+                  $ Donated:
+              </div>
+              <div class="donation-input">
+                <input type="number" class="form-control" id="donation" disabled>
+              </div>
+            </div>
+          </div>
+    
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+</main>
+
+<!-- Footer -->
+<footer class="flex-rw">
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col col-xs-3">
+        <ul class="footer-menu">
+          <li><h3>About Us</h3></li>
+          <li><a href="#">Home page</a></li>
+          <li><a href="#">Application features</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+        </ul>
+      </div>
+      <div class="col col-xs-3">
+        <ul class="footer-menu">
+          <li><h3>Value propositions</h3></li>
+          <li><a href="#">For sponsors</a></li>
+          <li><a href="#">For small businesses</a></li>
+          <li><a href="#">For charities</a></li>
+        </ul>
+      </div>
+      <div class="col col-xs-3">
+        <ul class="footer-menu">
+          <li>
+            <h3>Get involved</h3></li>
+          <li><a href="#">Donate</a></li>
+          <li><a href="#">Become our sponsor</a></li>
+          <li><a href="#">Become featured on the app</a></li>
+        </ul>
+      </div>
+      <div class="col col-xs-3">
+        <ul class="footer-menu">
+          <li>
+            <h3>Help</h3></li>
+          <li><a href="#">Contact us</a></li>
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">About the team</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid">
+      <div class="row">
+        <div class="col-xs-4">
+          <i class="fab fa-facebook fa-5x"><a href="#"></a></i>
+        </div>
+        <div class="col-xs-4">
+          <i class="fab fa-linkedin fa-5x"><a href="#"></a></i>
+        </div>
+        <div class="col-xs-4">
+          <i class="fab fa-twitter-square fa-5x"><a href="#"></a></i>
+        </div>
+      </div>
+    </div>
+
+<p>@Copyright</p>
+</footer>
+<script src="calculator.js"></script>
+</body>
+</html>
