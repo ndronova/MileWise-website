@@ -83,3 +83,7 @@ body {
 .learn button:hover {
   background-color: #375A28;
 }
+
+.help-instructions {
+  margin: 20px;
+}

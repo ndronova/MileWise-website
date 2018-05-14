@@ -52,16 +52,28 @@ text-align: justify;
   margin-left: auto;
 }
 
+.subscription-row {
+  display: flex;
+  justify-content: space-around;
+}
+
+.subscription-input {
+  width: 30%;
+}
+
 
 .col-xs-4 {
   margin:auto;
 }
 
+
+
+
 .btn-green {
   background-color: #95AB63;
   border: #95AB63;
   margin-left: 0;
-  margin-top: 10px;
+  /* margin-top: 10px; */
 }
 
 .btn-green:hover {
