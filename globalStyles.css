@@ -222,3 +222,7 @@ input::placeholder, textarea::placeholder {
 .contact-btn:hover {
   background-color: #F0433A; 
 }
+
+.business-tick ul {
+  list-style-type: none;
+}

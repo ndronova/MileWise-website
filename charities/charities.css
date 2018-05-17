@@ -9,7 +9,7 @@ body {
   margin-top: 50px;
   display: grid;
   grid-template-columns: 33% 33% 33%;
-  grid-auto-rows: 600px;
+  grid-auto-rows: 700px;
   grid-column-gap: 10px;
   grid-row-gap:10px;
 }
@@ -49,7 +49,8 @@ body {
 .charity-description {
   color:#268487;
   padding: 0 0 20px 0;
-  padding: 0 20px;
+  padding: 20px 20px;
+  font-size: 1.3em;
 }
 
 /* BUTTONS */
@@ -68,6 +69,11 @@ body {
   background-color: #607D37;
   height: 40px;
   font-size: 25px;
+  color: white;
+}
+
+.donate-info button a {
+  text-decoration: none;
   color: white;
 }
 
@@ -96,4 +102,19 @@ body {
 
 .help-instructions h2 {
   text-align: center;
+}
+
+/* donate forms */
+.two-line {
+  display: flex;
+  flex-direction: row;
+  align-content: stretch;
+  width: 100%;
+  grid-template-columns: 2fr 1fr;
+  grid-gap: 0;
+}
+
+.wrap-input {
+  margin-bottom: 20px;
+  line-height: 2;
 }
