@@ -49,6 +49,9 @@
   vertical-align: auto;
 }
 
+.card-text p {
+  font-size: 1.3em;
+}
 .card-text p:first-of-type {
   font-size: 8em;
   text-align: center;

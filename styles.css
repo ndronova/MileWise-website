@@ -96,7 +96,14 @@ text-align: justify;
 
 .row p {
   text-align: justify;
-  margin: 15%
+  margin: 15%;
+  font-size: 1.3em;
+  margin-bottom: 0;
+}
+
+.row p:not(:first-of-type) {
+  margin: 10px;
+  padding-left: 150px;
 }
 
 .fourElements img {
