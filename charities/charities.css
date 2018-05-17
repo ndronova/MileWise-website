@@ -84,6 +84,16 @@ body {
   background-color: #375A28;
 }
 
+/* Steps card */
 .help-instructions {
-  margin: 20px;
+  margin: 120px 120px;
+  padding: 20px;
+}
+
+.help-instructions h4 {
+  line-height: 2;
+}
+
+.help-instructions h2 {
+  text-align: center;
 }
