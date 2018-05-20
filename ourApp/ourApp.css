@@ -3,7 +3,7 @@
   border: 1px solid #F6FFE0;
   width: 100%;
   margin: 0;
-  background-image: url(/images/pattern.png);
+  background-image: url(../images/pattern.png);
   background-color: #F6FFE0;
   height: 700px;
 }
@@ -76,7 +76,7 @@ grid-template-columns: 1fr;
 
 /* FOUR REASONS STYLES */
 .four-reasons {
-  background-image: url(/images/pattern.png);
+  background-image: url(../images/pattern.png);
   background-color: #95AB63;
   /* display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr; */
@@ -104,7 +104,7 @@ flex-direction: column;
 
 /* BODY - needed for contact form background*/
 body {
-  background-image: url(/images/pattern.png);
+  background-image: url(../images/pattern.png);
   background-color: #95AB63;
 }
 

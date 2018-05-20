@@ -1,5 +1,5 @@
 body {
-  background-image: url(/images/pattern.png);
+  background-image: url(../images/pattern.png);
   background-color: #95AB63;
 }
 
@@ -20,7 +20,7 @@ h1 {
 .map-explanations {
   text-align: justify;
   color: white;
-  font-size: 1.4em;
+  font-size: 1.3em;
   padding: 0 20px;
 }
  .map-explanations p {
@@ -36,6 +36,7 @@ h1 {
 
 .business-tick {
   border-radius: 10px;
+  overflow: hidden;
 }
 
 .business-list-left {
@@ -50,5 +51,5 @@ h1 {
   box-shadow: 0 4px 6px 0 #375A28;
   padding-top: 20px;
   padding-left: 40px;
-  font-size: 1.4em;
+  font-size: 1.3em;
 }
